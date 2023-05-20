@@ -1,5 +1,4 @@
 package webapi.restapplication.controller;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
@@ -9,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import webapi.restapplication.assembler.OrderEntityAssembler;
 import webapi.restapplication.model.OrderProduct;
 import webapi.restapplication.service.OrderService;
-
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
